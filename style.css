@@ -1,1 +1,57 @@
-git add .
+.nsong:hover{
+    color:green;
+    font-size: 50px;
+    background-color: red;
+}
+input:focus{
+     font-size:50px;
+     color:green;
+}
+li:first-child{
+    background-color: brown;
+}
+li:nth-child(2n+1){
+    color:green;
+    border: salmon solid 10px;;border-radius: 10%;
+    list-style:none;
+}
+a:visited{
+    color:blue;
+}
+
+h1::before{
+    content: "good";
+    color:gold;
+    background-color: indigo;
+
+}
+h1::after{
+    content: " boy";
+    border:2px solid green;
+}
+.headline{
+    background-color: indigo;
+    font-size: 40px;
+    color:red;
+    text-align: center;
+}
+.total{
+    background-color: lightgreen;
+}
+div{
+    width:100px;
+    height: 100px;
+}
+#first{
+    background-color:red;
+}
+#second{
+    background-color:green;
+    position: fixed;
+    left:100px;
+    
+
+}
+#third{
+    background-color:gold;
+}
